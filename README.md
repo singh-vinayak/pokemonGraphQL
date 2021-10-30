@@ -1,6 +1,6 @@
 # Pokemon Cards
 
-### [Click here to view the app]() 
+### [Click here to view the app](https://vinayak-singh5302.github.io/pokemonGraphQL) 
 
 ## How I created this app
 
