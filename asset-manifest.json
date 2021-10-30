@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/pokemonGraphQL/static/js/main.dbc01736.chunk.js",
-    "main.js.map": "/pokemonGraphQL/static/js/main.dbc01736.chunk.js.map",
+    "main.js": "/pokemonGraphQL/static/js/main.d0d4673e.chunk.js",
+    "main.js.map": "/pokemonGraphQL/static/js/main.d0d4673e.chunk.js.map",
     "runtime-main.js": "/pokemonGraphQL/static/js/runtime-main.1bb7cc90.js",
     "runtime-main.js.map": "/pokemonGraphQL/static/js/runtime-main.1bb7cc90.js.map",
     "static/js/2.e0ac960b.chunk.js": "/pokemonGraphQL/static/js/2.e0ac960b.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.1bb7cc90.js",
     "static/js/2.e0ac960b.chunk.js",
-    "static/js/main.dbc01736.chunk.js"
+    "static/js/main.d0d4673e.chunk.js"
   ]
 }
