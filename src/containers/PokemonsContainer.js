@@ -16,7 +16,7 @@ export function PokemonsContainer() {
   //const [loading, setLoading] =  React.useState(true);
   const handleChange = (event, value) => {
     setPage(value);
-    setDocStart(docStart + 20);
+    setDocStart(value*20);
   };
 
   return (
