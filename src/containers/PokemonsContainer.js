@@ -12,11 +12,9 @@ export function PokemonsContainer() {
     variables: { first: 151 }
   });
   const [page, setPage] = React.useState(1);
-  const [docStart, setDocStart] = React.useState(0);
   //const [loading, setLoading] =  React.useState(true);
   const handleChange = (event, value) => {
     setPage(value);
-    setDocStart(value*20);
   };
 
   return (
@@ -42,7 +40,7 @@ export function PokemonsContainer() {
         pokemons
           .filter(
             (pokemon) =>
-              pokemon.number >= docStart && pokemon.number <= docStart + 20
+              pokemon.number >= ((page - 1) * 20 + 1) && pokemon.number <= (page - 1) * 20  + 20
           )
           .map((pokemon) => <Pokemon key={pokemon.id} pokemon={pokemon} />)}
     </div>
